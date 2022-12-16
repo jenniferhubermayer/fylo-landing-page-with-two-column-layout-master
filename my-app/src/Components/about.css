@@ -1,0 +1,25 @@
+.about-section {
+  display: flex;
+  padding: 120px 60px 60px 60px;
+}
+
+.about-section > article {
+  width: 50%;
+}
+
+.about-section > article > img {
+  width: 100%;
+  padding-left: 60px;
+}
+
+.about-section form {
+  display: flex;
+  justify-content: stretch;
+  gap: 16px;
+  width: 80%;
+  max-width: 60%;
+}
+
+.about-section form .email {
+  min-width: 350px;
+}

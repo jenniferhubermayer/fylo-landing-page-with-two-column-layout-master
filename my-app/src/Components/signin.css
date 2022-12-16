@@ -1,0 +1,20 @@
+.sign-in-section {
+  background-color: hsl(238, 22%, 44%);
+  padding: 120px 60px 60px 60px;
+  display: flex;
+  color: #ffffff;
+}
+
+.sign-in-section > article {
+  width: 50%;
+}
+
+.sign-in-section form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sign-in-section form .email {
+  width: 100%;
+}
