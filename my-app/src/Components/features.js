@@ -25,8 +25,8 @@ const Features = () => {
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required!
           </p>
-          <div>
-            <a href="http://" class="features-link">
+          <div class="features-link">
+            <a href="http://">
               See how Fylo works <img src={arrowImage} alt="arrow icon" />
             </a>
           </div>

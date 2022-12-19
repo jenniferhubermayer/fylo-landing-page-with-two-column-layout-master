@@ -16,3 +16,12 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
   color: hsl(224, 91%, 65%);
 }
+
+@media (max-width: 768px) {
+  nav > ul > li > a {
+    font-size: 0.9rem;
+  }
+  nav > ul {
+    gap: 16px;
+  }
+}

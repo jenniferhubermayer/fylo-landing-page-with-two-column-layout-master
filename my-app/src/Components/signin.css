@@ -17,4 +17,19 @@
 
 .sign-in-section form .email {
   width: 100%;
+  border: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .sign-in-section {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 60px 30px;
+  }
+  .sign-in-section article {
+    width: 100%;
+  }
+  .sign-in-section input {
+    width: 100%;
+  }
 }
